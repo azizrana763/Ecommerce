@@ -7,10 +7,10 @@ import { GiFoodTruck } from 'react-icons/gi';
 const Banner = () => {
   return (
     <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
-        <div className="container">
+        <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
                 <div data-aos =" zoom-in ">
-                    <img className="max-w-[400px] h-[350px] w-full mx-auto object-cover"  src= {img}></img>
+                    <img className="max-w-[300px] h-[350px] w-full mx-auto object-cover"  src= {img}></img>
                 </div>
                 <div className="flex flex-col justify-center gap-6 sm: pt-0"> 
                  <h1  className= "text-3xl sm:text-4xl font-bold">Winter sale upto 50% off</h1>
